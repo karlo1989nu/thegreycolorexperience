@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: #1E1E1E;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navlist {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+    /*background-color: #B8B8B8;*/
+}
+a {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #1E1E1E;
+    text-decoration: none;
+}
+.content {
+    margin: auto;
+    background: white;
+    width: 100%;
+}
+.mission-container {
+    display: flex;
+    height: 400px;
+    background-image: url(./img/den-harrson-PEttJRISq1w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.mission-text {
+    margin: auto;
+    width: 100%;
+    color: #1E1E1E;
+    background-color: #B8B8B8;
+}
+#portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+.portfolio-content {
+    padding: 100px;
+    margin: auto 100px;
+}
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #B8B8B8;
+}
+.greypictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.greypictures img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 250px;
+    height: auto;
+    border: #B8B8B8 solid 1px;
+}
+.teamcontent {
+    background-image: url(./img/isaiah-rustad-8q5rl4rdK_0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teampic {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+.teampic img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+.teampic span {
+    color: #6B4B4B  ;
+}
+.copyright {
+    background-color: #B8B8B8;
+}
+.upbutton {
+    text-decoration: underline;
+}
